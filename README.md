@@ -1,7 +1,7 @@
-# MedIMENTOR
+# MEDIMENTOR
 
 ## Project Overview
-MedIMENTOR is a web-based medicine prediction system designed to assist users in identifying suitable medications based on their symptoms and medical history. The system leverages a decision tree classifier machine learning model to provide personalized medication predictions.
+MEDIMENTOR is a web-based medicine prediction system designed to assist users in identifying suitable medications based on their symptoms and medical history. The system leverages a decision tree classifier machine learning model to provide personalized medication predictions.
 
 ## Key Features
 - **User-Friendly Interface:** Easily input symptoms and medical history through an intuitive web interface.
@@ -12,11 +12,6 @@ MedIMENTOR is a web-based medicine prediction system designed to assist users in
 
 ## Technologies Used
 - **Frontend:** HTML, CSS
-- **Backend:** Flask (or other relevant backend framework)
-- **Machine Learning Model:** Decision Tree Classifier
+- **Backend:** SQL Database
 - **Version Control:** Git
 
-## How to Run the Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/MedIMENTOR.git
