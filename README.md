@@ -1,17 +1,45 @@
-# MEDIMENTOR
+# Prediction of Medicine by Symptoms 
 
-## Project Overview
-MEDIMENTOR is a web-based medicine prediction system designed to assist users in identifying suitable medications based on their symptoms and medical history. The system leverages a decision tree classifier machine learning model to provide personalized medication predictions.
+---
+## Overview 
 
-## Key Features
-- **User-Friendly Interface:** Easily input symptoms and medical history through an intuitive web interface.
-- **Accurate Predictions:** Machine learning model optimized for accuracy based on symptoms, medical history, and age group.
-- **Feedback Mechanism:** Allows users to provide feedback on predictions and encourages consulting healthcare professionals.
-- **Educational Resources:** Integrated resources to inform users about suggested medications and health advice.
-- **Privacy and Security:** Prioritizes user privacy and data security through secure web practices.
+The **Prediction of Medicine by Symptoms** project is a simple yet effective web-based tool designed to help users identify potential medicines based on their symptoms. The goal is to provide a quick and easy way for individuals to get medicine recommendations before consulting a healthcare professional.  
 
-## Technologies Used
-- **Frontend:** HTML, CSS
-- **Backend:** SQL Database
-- **Version Control:** Git
+This project is built using **HTML, CSS, and JavaScript** to create a clean and user-friendly interface. Users can enter their symptoms, and the system suggests possible medicines from a predefined dataset. While this is not a substitute for professional medical advice, it serves as an initial reference for common illnesses and remedies.    
+    
+---
+## Features 
+Users can input their symptoms  
+The system suggests possible medicines  
+Simple and user-friendly interface  
+    
+---
+## Tech Stack
 
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:**  Flask  
+- **Database:** Sqlite3
+  
+---
+## How to Run
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Jahnavi-2723/PREDICTION-OF-MEDICINE-BY-SYMPTOMS.git
+2. Navigate to the project folder:
+   ```bash
+   cd PREDICTION-OF-MEDICINE-BY-SYMPTOMS
+3. Open index.html in your browser.
+---
+
+## Screenshot
+
+![{920E4DD0-DD5E-4623-820F-2E477A3B3977}](https://github.com/user-attachments/assets/d07aeb01-1fa7-479f-90b6-3240eca1dbb3)
+
+---
+## Future Enhancements
+
+- Integrate a database for a more dynamic medicine repository.
+- Implement machine learning for intelligent medicine predictions.
+- Add user authentication to save past queries.
+- Connect with a backend API for live medicine data updates.
